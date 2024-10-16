@@ -1,0 +1,44 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/networking/com.python.pydev.analysis/v2_indexcache
+image|1725512610134494006|/home/shreyas/eclipse-workspace/networking/image.py
+tcpipclient|1725514233958165554|/home/shreyas/eclipse-workspace/networking/tcpipclient.py
+fileserver|1725514651002286986|/home/shreyas/eclipse-workspace/networking/fileserver.py
+tcpip|1725514004075770432|/home/shreyas/eclipse-workspace/networking/tcpip.py
+emailclient|1725516476703355127|/home/shreyas/eclipse-workspace/networking/emailclient.py
+html|1725512341234717815|/home/shreyas/eclipse-workspace/networking/html.py
+fileclient|1725515287913919585|/home/shreyas/eclipse-workspace/networking/fileclient.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+3=/home/shreyas/eclipse-workspace/networking/fileclient.py
+14=image
+11=/home/shreyas/eclipse-workspace/networking/tcpipclient.py
+13=/home/shreyas/eclipse-workspace/networking/image.py
+1=/home/shreyas/eclipse-workspace/networking/emailclient.py
+9=/home/shreyas/eclipse-workspace/networking/tcpip.py
+5=/home/shreyas/eclipse-workspace/networking/html.py
+12=tcpipclient
+8=fileserver
+7=/home/shreyas/eclipse-workspace/networking/fileserver.py
+10=tcpip
+2=emailclient
+6=html
+4=fileclient
+-- END DICTIONARY
+-- START TREE 1
+10
+bod|1|body!1^4#1*19@
+con|3|content!3^10#1*35@content!5^5#5*51@content!7^18#5*67@
+f|2|f!7^17#5*67@f!5^10#1*51@
+fil|2|fileName!7^15#1*67@fileName!3^7#1*35@
+hos|2|host!7^4#1*67@host!9^4#1*83@
+msg|2|msg!11^7#1*99@msg!1^6#1*19@
+por|2|port!7^5#1*67@port!9^5#1*83@
+s|4|s!7^7#1*67@s!3^3#1*35@s!9^7#1*83@s!11^3#1*99@
+ser|1|server!1^11#1*19@
+url|2|url!5^4#5*51@url!13^3#1*115@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

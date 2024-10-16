@@ -1,0 +1,76 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/multithreading/com.python.pydev.analysis/v2_indexcache
+threadflag|1725379968021586552|/home/shreyas/eclipse-workspace/multithreading/threadflag.py
+threadwaitandnotify|1725380344509221738|/home/shreyas/eclipse-workspace/multithreading/threadwaitandnotify.py
+producerconsumer|1725380934089598308|/home/shreyas/eclipse-workspace/multithreading/producerconsumer.py
+usingclass|1725368061486471025|/home/shreyas/eclipse-workspace/multithreading/usingclass.py
+assignment|1725382451786419048|/home/shreyas/eclipse-workspace/multithreading/assignment.py
+usingsubclass|1725367509041051915|/home/shreyas/eclipse-workspace/multithreading/usingsubclass.py
+bookmybus|1725379201977833194|/home/shreyas/eclipse-workspace/multithreading/bookmybus.py
+mainthread|1725349486216753175|/home/shreyas/eclipse-workspace/multithreading/mainthread.py
+queuetypes|1725381473209731539|/home/shreyas/eclipse-workspace/multithreading/queuetypes.py
+usingfunction|1725367222051722878|/home/shreyas/eclipse-workspace/multithreading/usingfunction.py
+-- END DISKCACHE
+-- START DICTIONARY
+29
+19=Mybus
+29=MyT
+9=/home/shreyas/eclipse-workspace/multithreading/assignment.py
+17=/home/shreyas/eclipse-workspace/multithreading/queuetypes.py
+27=EvenNumberThread
+2=threadflag
+3=/home/shreyas/eclipse-workspace/multithreading/threadwaitandnotify.py
+6=producerconsumer
+21=Consumer
+11=/home/shreyas/eclipse-workspace/multithreading/bookmybus.py
+4=threadwaitandnotify
+5=/home/shreyas/eclipse-workspace/multithreading/producerconsumer.py
+25=Consumer.__init__
+1=/home/shreyas/eclipse-workspace/multithreading/threadflag.py
+26=MyThread
+28=OddNumberThread
+10=assignment
+7=/home/shreyas/eclipse-workspace/multithreading/usingfunction.py
+14=usingsubclass
+15=/home/shreyas/eclipse-workspace/multithreading/usingclass.py
+22=Mybus.__init__
+23=producer.__init__
+24=producer.produce
+16=usingclass
+20=producer
+12=bookmybus
+13=/home/shreyas/eclipse-workspace/multithreading/usingsubclass.py
+18=queuetypes
+8=usingfunction
+-- END DICTIONARY
+-- START TREE 1
+15
+C|2|C!1^28#1*19@C!3^31#1*35@
+P|2|P!1^27#1*19@P!3^30#1*35@
+con|3|Consumer!1^16#7*17@Consumer!3^18#7*33@consumer!5^13#5*50@
+dis|1|displayNumber!7^3#5*66@
+eve|1|EvenNumberThread!9^4#7*81@
+myb|1|Mybus!11^3#7*97@
+myt|2|MyThread!13^3#7*113@MyT!15^4#7*129@
+obj|4|obj!11^19#1*99@obj!15^12#1*131@obj1!9^20#1*83@obj!9^10#1*83@
+odd|1|OddNumberThread!9^14#7*81@
+pq|1|pq!17^12#1*147@
+pro|3|producer!5^6#5*50@producer!3^5#7*33@producer!1^5#7*17@
+q|1|q!5^19#1*51@
+t|5|t!9^11#1*83@t!15^13#1*131@t!7^11#1*67@t!11^20#1*99@t!13^10#1*115@
+t1|6|t1!9^21#1*83@t1!5^20#1*51@t1!15^16#1*131@t1!1^30#1*19@t1!3^33#1*35@t1!11^23#1*99@
+t2|5|t2!1^31#1*19@t2!3^34#1*35@t2!11^26#1*99@t2!5^21#1*51@t2!15^19#1*131@
+-- END TREE
+-- START TREE 2
+9
+__i|5|__init__!19&11^4#9*98@__init__!20&3^6#9*34@__init__!21&3^19#9*34@__init__!20&1^6#9*18@__init__!21&1^17#9*18@
+ava|1|availableseats!22&11^5#9*99@
+buy|1|buy!19&11^8#9*98@
+c|1|c!23&3^8#9*35@
+con|2|consume!21&3^22#9*34@consume!21&1^20#9*18@
+l|1|l!22&11^6#9*99@
+ord|2|orderedplaced!23&1^8#9*19@orderedplaced!24&1^14#9*19@
+pro|6|produce!20&1^9#9*18@prod!25&3^20#9*35@prod!25&1^18#9*19@produce!20&3^9#9*34@products!23&3^7#9*35@products!23&1^7#9*19@
+run|4|run!26&13^4#9*114@run!27&9^5#9*82@run!28&9^15#9*82@run!29&15^5#9*130@
+-- END TREE

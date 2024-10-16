@@ -1,0 +1,28 @@
+<html>
+  <title>{{title}}</title>
+  <body><h1>{{bdata}}</h1>
+  
+  
+  {% for n in clist %}
+  <div>{{forloop.counter}}{{n}}</div>
+  {% endfor %}
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>Name</th>
+      <th>Phone</th>
+      {% for lst in student_details %}
+    </tr>
+      <td>{{lst.name}}</td>
+     <td>{{lst.phone}}</td>
+    <tr>
+      {% endfor %}
+    </tr>
+  </table>
+
+  {% for n in number %}
+  {% if n > 20 %}
+  {{n}}
+  {% endif %}
+  {% endfor %}
+  </body>
+</html>

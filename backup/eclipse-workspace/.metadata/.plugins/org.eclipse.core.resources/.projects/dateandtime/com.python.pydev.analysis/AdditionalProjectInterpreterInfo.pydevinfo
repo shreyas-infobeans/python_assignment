@@ -1,0 +1,49 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/dateandtime/com.python.pydev.analysis/v2_indexcache
+assignment|1725294827018341319|/home/shreyas/eclipse-workspace/dateandtime/assignment.py
+project|1725285932372794964|/home/shreyas/eclipse-workspace/dateandtime/project.py
+demo|1725273671178650982|/home/shreyas/eclipse-workspace/dateandtime/demo.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+5=/home/shreyas/eclipse-workspace/dateandtime/demo.py
+9=Venue
+10=Address
+4=assignment
+1=/home/shreyas/eclipse-workspace/dateandtime/project.py
+12=Address.__init__
+2=project
+8=Eventmy
+14=LogAnalyzer.__init__
+3=/home/shreyas/eclipse-workspace/dateandtime/assignment.py
+6=demo
+11=Venue.__init__
+13=Eventmy.__init__
+7=LogAnalyzer
+-- END DICTIONARY
+-- START TREE 1
+7
+add|2|Address!1^14#7*17@add!1^22#1*19@
+ana|1|ana!3^55#1*35@
+dt|1|dt!5^3#1*51@
+eve|2|Eventmy!1^2#7*17@eve!1^24#1*19@
+log|1|LogAnalyzer!3^4#7*33@
+sum|1|summary!3^56#1*35@
+ven|2|Venue!1^10#7*17@ven!1^23#1*19@
+-- END TREE
+-- START TREE 2
+12
+__i|4|__init__!7&3^5#9*34@__init__!8&1^3#9*18@__init__!9&1^11#9*18@__init__!10&1^15#9*18@
+add|1|address!11&1^13#9*19@
+ana|1|analyze_logs!7&3^8#9*34@
+cit|1|city!12&1^17#9*19@
+cou|1|country!12&1^18#9*19@
+end|1|endtime!13&1^5#9*19@
+log|1|log_file!14&3^6#9*35@
+nam|1|name!11&1^12#9*19@
+sho|1|show!8&1^7#9*18@
+sta|2|starttime!13&1^4#9*19@state!12&1^19#9*19@
+str|1|street!12&1^16#9*19@
+ven|1|venue!13&1^6#9*19@
+-- END TREE

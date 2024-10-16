@@ -1,0 +1,35 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/inheritance/com.python.pydev.analysis/v2_indexcache
+bmw|1724588503450638903|/home/shreyas/eclipse-workspace/inheritance/bmw.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+7=BMW.__init__
+5=FiveSeries
+4=ThreeSeries
+1=/home/shreyas/eclipse-workspace/inheritance/bmw.py
+6=ThreeSeries.__init__
+8=FiveSeries.__init__
+2=bmw
+3=BMW
+-- END DICTIONARY
+-- START TREE 1
+3
+bmw|1|BMW!1^2#7*17@
+fiv|1|FiveSeries!1^31#7*17@
+thr|2|ThreeSeries!1^17#7*17@threeSeries!1^38#1*19@
+-- END TREE
+-- START TREE 2
+10
+__i|3|__init__!3&1^3#9*18@__init__!4&1^18#9*18@__init__!5&1^32#9*18@
+cru|1|cruiseControlEnabled!6&1^21#9*19@
+dis|1|display!4&1^23#9*18@
+dri|3|drive!3&1^14#9*18@drive!4&1^28#9*18@drive!5&1^35#9*18@
+mak|1|make!7&1^4#9*19@
+mod|1|model!7&1^5#9*19@
+par|1|parkingAssistEnabled!8&1^34#9*19@
+sta|2|start!3&1^8#9*18@start!4&1^25#9*18@
+sto|1|stop!3&1^11#9*18@
+yea|1|year!7&1^6#9*19@
+-- END TREE

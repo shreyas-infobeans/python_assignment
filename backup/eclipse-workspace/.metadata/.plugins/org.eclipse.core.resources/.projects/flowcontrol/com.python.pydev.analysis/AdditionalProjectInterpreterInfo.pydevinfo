@@ -1,0 +1,82 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/flowcontrol/com.python.pydev.analysis/v2_indexcache
+assignment1|1724224229720357764|/home/shreyas/eclipse-workspace/flowcontrol/assignment1.py
+evenodd|1724175844595051638|/home/shreyas/eclipse-workspace/flowcontrol/evenodd.py
+findallpos|1724236683966356832|/home/shreyas/eclipse-workspace/flowcontrol/findallpos.py
+charcount|1724235141917804618|/home/shreyas/eclipse-workspace/flowcontrol/charcount.py
+string|1724232441894911452|/home/shreyas/eclipse-workspace/flowcontrol/string.py
+charreverse|1724234453523909338|/home/shreyas/eclipse-workspace/flowcontrol/charreverse.py
+assignment|1724176735480115739|/home/shreyas/eclipse-workspace/flowcontrol/assignment.py
+pattern|1724235745423872526|/home/shreyas/eclipse-workspace/flowcontrol/pattern.py
+employee|1724219338267958179|/home/shreyas/eclipse-workspace/flowcontrol/employee.py
+while|1724176893148179612|/home/shreyas/eclipse-workspace/flowcontrol/while.py
+removeduplicate|1724217643592977371|/home/shreyas/eclipse-workspace/flowcontrol/removeduplicate.py
+productlist|1724215297102084420|/home/shreyas/eclipse-workspace/flowcontrol/productlist.py
+forloop|1724214115618803061|/home/shreyas/eclipse-workspace/flowcontrol/forloop.py
+assert|1724216900922443714|/home/shreyas/eclipse-workspace/flowcontrol/assert.py
+vowel|1724218764704074927|/home/shreyas/eclipse-workspace/flowcontrol/vowel.py
+wordreverse|1724233879482049977|/home/shreyas/eclipse-workspace/flowcontrol/wordreverse.py
+table|1724215770203398908|/home/shreyas/eclipse-workspace/flowcontrol/table.py
+-- END DISKCACHE
+-- START DICTIONARY
+28
+9=/home/shreyas/eclipse-workspace/flowcontrol/charreverse.py
+13=/home/shreyas/eclipse-workspace/flowcontrol/productlist.py
+20=assignment1
+24=string
+10=charreverse
+7=/home/shreyas/eclipse-workspace/flowcontrol/wordreverse.py
+17=/home/shreyas/eclipse-workspace/flowcontrol/table.py
+19=/home/shreyas/eclipse-workspace/flowcontrol/assignment1.py
+5=/home/shreyas/eclipse-workspace/flowcontrol/charcount.py
+27=/home/shreyas/eclipse-workspace/flowcontrol/assert.py
+4=employee
+26=while
+12=removeduplicate
+21=/home/shreyas/eclipse-workspace/flowcontrol/vowel.py
+25=/home/shreyas/eclipse-workspace/flowcontrol/while.py
+28=assert
+18=table
+1=/home/shreyas/eclipse-workspace/flowcontrol/assignment.py
+15=/home/shreyas/eclipse-workspace/flowcontrol/evenodd.py
+16=evenodd
+6=charcount
+2=assignment
+14=productlist
+22=vowel
+23=/home/shreyas/eclipse-workspace/flowcontrol/string.py
+11=/home/shreyas/eclipse-workspace/flowcontrol/removeduplicate.py
+8=wordreverse
+3=/home/shreyas/eclipse-workspace/flowcontrol/employee.py
+-- END DICTIONARY
+-- START TREE 1
+24
+ave|1|average!1^6#5*19@
+cho|1|choice!3^14#5*35@
+d|1|d!5^2#1*51@
+emp|1|employees!3^2#1*35@
+i|2|i!7^5#1*67@i!9^5#1*83@
+l1|1|l1!11^1#1*99@
+l2|1|l2!11^5#1*99@
+l3|1|l3!11^3#1*99@
+lst|1|lst!13^1#1*115@
+n|1|n!3^1#1*35@
+nam|1|name!3^4#5*35@
+num|2|number!15^1#1*131@num!17^1#1*147@
+out|2|output!7^12#1*67@output!9^11#1*83@
+pri|1|primeflag!19^2#1*163@
+pro|1|prod!13^2#1*115@
+res|3|res!7^4#1*67@result!9^4#1*83@result!21^2#1*179@
+s|4|s!7^1#1*67@s!9^1#1*83@s!5^1#1*51@s!23^1#1*195@
+sal|1|salary!3^5#5*35@
+st|1|st!23^4#1*195@
+tem|2|temp!9^2#1*83@temp!7^2#1*67@
+val|1|val!19^1#1*163@
+vow|1|vowels!21^3#1*179@
+wor|1|word!21^1#1*179@
+x|2|x!25^1#1*211@x!27^1#1*227@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

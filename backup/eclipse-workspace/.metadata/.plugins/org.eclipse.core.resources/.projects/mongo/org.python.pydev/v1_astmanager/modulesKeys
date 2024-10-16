@@ -1,0 +1,5 @@
+MODULES_MANAGER_V3
+delete|/home/shreyas/eclipse-workspace/mongo/delete.py
+demo|/home/shreyas/eclipse-workspace/mongo/demo.py
+read|/home/shreyas/eclipse-workspace/mongo/read.py
+update|/home/shreyas/eclipse-workspace/mongo/update.py

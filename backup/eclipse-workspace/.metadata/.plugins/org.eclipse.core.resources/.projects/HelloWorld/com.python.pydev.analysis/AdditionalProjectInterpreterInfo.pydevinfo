@@ -1,0 +1,93 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/HelloWorld/com.python.pydev.analysis/v2_indexcache
+stringtype|1723874979045890296|/home/shreyas/eclipse-workspace/HelloWorld/stringtype.py
+summary|1723878543889455804|/home/shreyas/eclipse-workspace/HelloWorld/summary.py
+settype|1723784022314875572|/home/shreyas/eclipse-workspace/HelloWorld/settype.py
+listassignment|1723786143920688233|/home/shreyas/eclipse-workspace/HelloWorld/listassignment.py
+tupleassignment|1723786516841301411|/home/shreyas/eclipse-workspace/HelloWorld/tupleassignment.py
+main.__init__|1723558408007537946|/home/shreyas/eclipse-workspace/HelloWorld/main/__init__.py
+bytesandarrays|1723788110496280018|/home/shreyas/eclipse-workspace/HelloWorld/bytesandarrays.py
+datatypes|1723793369928785006|/home/shreyas/eclipse-workspace/HelloWorld/datatypes.py
+datstructures|1723794221412554584|/home/shreyas/eclipse-workspace/HelloWorld/datstructures.py
+tuple|1723717835610883078|/home/shreyas/eclipse-workspace/HelloWorld/tuple.py
+immutable|1723792708770375368|/home/shreyas/eclipse-workspace/HelloWorld/immutable.py
+numerictypes|1723715995779697405|/home/shreyas/eclipse-workspace/HelloWorld/numerictypes.py
+rangetype|1723786932983456883|/home/shreyas/eclipse-workspace/HelloWorld/rangetype.py
+hello|1723610988156935240|/home/shreyas/eclipse-workspace/HelloWorld/hello.py
+listtype|1723784688616449783|/home/shreyas/eclipse-workspace/HelloWorld/listtype.py
+dictassignment|1723792456362545610|/home/shreyas/eclipse-workspace/HelloWorld/dictassignment.py
+dicttype|1723874505995811648|/home/shreyas/eclipse-workspace/HelloWorld/dicttype.py
+main.main|1723558527948424311|/home/shreyas/eclipse-workspace/HelloWorld/main/main.py
+nonetype|1723876813623747974|/home/shreyas/eclipse-workspace/HelloWorld/nonetype.py
+-- END DISKCACHE
+-- START DICTIONARY
+32
+28=stringtype
+16=listassignment
+26=settype
+10=datatypes
+11=/home/shreyas/eclipse-workspace/HelloWorld/dicttype.py
+14=datstructures
+18=tuple
+6=numerictypes
+17=/home/shreyas/eclipse-workspace/HelloWorld/tuple.py
+23=/home/shreyas/eclipse-workspace/HelloWorld/rangetype.py
+31=/home/shreyas/eclipse-workspace/HelloWorld/tupleassignment.py
+20=listtype
+12=dicttype
+30=dictassignment
+19=/home/shreyas/eclipse-workspace/HelloWorld/listtype.py
+4=summary
+27=/home/shreyas/eclipse-workspace/HelloWorld/stringtype.py
+5=/home/shreyas/eclipse-workspace/HelloWorld/numerictypes.py
+32=tupleassignment
+8=bytesandarrays
+9=/home/shreyas/eclipse-workspace/HelloWorld/datatypes.py
+29=/home/shreyas/eclipse-workspace/HelloWorld/dictassignment.py
+15=/home/shreyas/eclipse-workspace/HelloWorld/listassignment.py
+7=/home/shreyas/eclipse-workspace/HelloWorld/bytesandarrays.py
+2=immutable
+13=/home/shreyas/eclipse-workspace/HelloWorld/datstructures.py
+3=/home/shreyas/eclipse-workspace/HelloWorld/summary.py
+24=rangetype
+1=/home/shreyas/eclipse-workspace/HelloWorld/immutable.py
+25=/home/shreyas/eclipse-workspace/HelloWorld/settype.py
+22=nonetype
+21=/home/shreyas/eclipse-workspace/HelloWorld/nonetype.py
+-- END DICTIONARY
+-- START TREE 1
+29
+a|2|a!1^1#1*19@a!3^1#1*35@
+age|1|age!5^3#1*51@
+b|3|b!1^2#1*19@b!7^3#1*67@b!3^2#1*35@
+ba|1|ba!7^6#1*67@
+bil|1|billingAmount!9^6#1*83@
+c|1|c!3^9#1*35@
+dic|1|dict1!11^1#1*99@
+f|1|f!3^5#1*35@
+f2|1|f2!3^6#1*35@
+fir|3|firstName!5^1#1*51@first!5^12#1*51@firstName!9^2#1*83@
+fou|1|fourth!5^15#1*51@
+has|1|hasInsurance!9^5#1*83@
+hei|1|height!5^5#1*51@
+id|1|id!9^1#1*83@
+k|1|k!11^7#1*99@
+key|1|keys!13^3#1*115@
+las|2|lastName!5^2#1*51@lastName!9^3#1*83@
+lst|5|lst!15^1#1*131@lst!3^13#1*35@lst!17^12#1*147@lst!19^1#1*163@lst!7^1#1*67@
+m1|1|m1!21^1#5*178@
+r|1|r!23^2#1*195@
+s|2|s!25^1#1*211@s!27^1#1*227@
+sec|1|second!5^13#1*51@
+ssn|2|ssn!9^4#1*83@ssn!5^4#1*51@
+stu|2|student_info!29^1#1*243@students!13^1#1*115@
+t1|1|t1!17^1#1*147@
+thi|1|third!5^14#1*51@
+tpl|2|tpl!17^15#1*147@tpl!31^1#1*259@
+v|1|v!11^11#1*99@
+wei|1|weight!5^6#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

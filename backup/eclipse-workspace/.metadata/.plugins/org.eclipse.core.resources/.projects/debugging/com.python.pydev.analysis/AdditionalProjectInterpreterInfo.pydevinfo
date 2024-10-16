@@ -1,0 +1,21 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/debugging/com.python.pydev.analysis/v2_indexcache
+fun1|1725944635800919298|/home/shreyas/eclipse-workspace/debugging/fun1.py
+fun2|1725945232461109194|/home/shreyas/eclipse-workspace/debugging/fun2.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+2=fun1
+3=/home/shreyas/eclipse-workspace/debugging/fun2.py
+1=/home/shreyas/eclipse-workspace/debugging/fun1.py
+4=fun2
+-- END DICTIONARY
+-- START TREE 1
+2
+fun|2|fun1!1^2#5*18@fun2!3^2#5*34@
+n|1|n!1^6#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,30 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/basicprograms/com.python.pydev.analysis/v2_indexcache
+averageofnumbers|1724175160466651205|/home/shreyas/eclipse-workspace/basicprograms/averageofnumbers.py
+match|1725946030452708380|/home/shreyas/eclipse-workspace/basicprograms/match.py
+areaofcircle|1724175582403485469|/home/shreyas/eclipse-workspace/basicprograms/areaofcircle.py
+studentdata|1724174904493886548|/home/shreyas/eclipse-workspace/basicprograms/studentdata.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+1=/home/shreyas/eclipse-workspace/basicprograms/areaofcircle.py
+3=/home/shreyas/eclipse-workspace/basicprograms/averageofnumbers.py
+4=averageofnumbers
+7=/home/shreyas/eclipse-workspace/basicprograms/match.py
+8=match
+5=/home/shreyas/eclipse-workspace/basicprograms/studentdata.py
+2=areaofcircle
+6=studentdata
+-- END DICTIONARY
+-- START TREE 1
+5
+are|1|area!1^4#1*19@
+ave|1|average!3^3#1*35@
+rad|1|radius!1^2#1*19@
+stu|3|student_name!5^2#1*51@student_marks!5^3#1*51@student_id!5^1#1*51@
+x|1|x!7^1#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,28 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/pandasdemos/com.python.pydev.analysis/v2_indexcache
+seriesdemo|1725987874658538632|/home/shreyas/eclipse-workspace/pandasdemos/seriesdemo.py
+dataframes_assign|1725991019400456737|/home/shreyas/eclipse-workspace/pandasdemos/dataframes_assign.py
+dataframes_demo|1725990352148495260|/home/shreyas/eclipse-workspace/pandasdemos/dataframes_demo.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+3=/home/shreyas/eclipse-workspace/pandasdemos/dataframes_demo.py
+2=seriesdemo
+5=/home/shreyas/eclipse-workspace/pandasdemos/dataframes_assign.py
+6=dataframes_assign
+4=dataframes_demo
+1=/home/shreyas/eclipse-workspace/pandasdemos/seriesdemo.py
+-- END DICTIONARY
+-- START TREE 1
+6
+cou|1|courses!1^24#1*19@
+cus|1|customer_df!3^41#1*35@
+df|1|df!5^3#1*51@
+fil|1|filtered_df!5^12#1*51@
+rev|2|reviews!1^3#1*19@reviews1!1^16#1*19@
+sco|2|scores_dict!3^3#1*35@scores!3^5#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="0" failures="1" finished="true" name="Test Run: 0" tests="2" total_time="Finished in: 0.00 secs."/>
+    <test location="/home/shreyas/eclipse-workspace/match1/creditcardvalidation.py" status="fail" test="Credit.test_ValidateCard_expired" time="">
+        <stdout><![CDATA[setup
+teardown
+]]></stdout>
+        <stderr><![CDATA[Traceback (most recent call last):
+  File "/home/shreyas/eclipse-workspace/match1/creditcardvalidation.py", line 11, in test_ValidateCard_expired
+    with self.assertRaises(RuntimeError):
+AssertionError: RuntimeError not raised
+]]></stderr>
+    </test>
+    <test location="/home/shreyas/eclipse-workspace/match1/creditcardvalidation.py" status="ok" test="Credit.test_ValidateCard_valid" time="0.00">
+        <stdout><![CDATA[setup
+teardown
+]]></stdout>
+        <stderr/>
+    </test>
+    <launch mode="run">
+        <launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="match1 creditcardvalidation.py (1)"/>
+]]></launch_memento>
+    </launch>
+</pydev-testsuite>

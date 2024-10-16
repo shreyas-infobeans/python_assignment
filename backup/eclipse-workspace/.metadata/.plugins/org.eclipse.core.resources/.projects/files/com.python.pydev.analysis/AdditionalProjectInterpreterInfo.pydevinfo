@@ -1,0 +1,50 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/files/com.python.pydev.analysis/v2_indexcache
+read|1725015767223573196|/home/shreyas/eclipse-workspace/files/read.py
+student|1725187011918564648|/home/shreyas/eclipse-workspace/files/student.py
+assignment_reg|1725253673411839604|/home/shreyas/eclipse-workspace/files/assignment_reg.py
+demo|1725014801647791139|/home/shreyas/eclipse-workspace/files/demo.py
+write|1725015455273364062|/home/shreyas/eclipse-workspace/files/write.py
+demo1|1725151703213201727|/home/shreyas/eclipse-workspace/files/demo1.py
+pickleload|1725187735665163561|/home/shreyas/eclipse-workspace/files/pickleload.py
+pickletest|1725187612728718499|/home/shreyas/eclipse-workspace/files/pickletest.py
+-- END DISKCACHE
+-- START DICTIONARY
+18
+3=/home/shreyas/eclipse-workspace/files/write.py
+15=/home/shreyas/eclipse-workspace/files/student.py
+9=/home/shreyas/eclipse-workspace/files/pickletest.py
+12=read
+13=/home/shreyas/eclipse-workspace/files/demo.py
+7=/home/shreyas/eclipse-workspace/files/demo1.py
+16=student
+1=/home/shreyas/eclipse-workspace/files/assignment_reg.py
+11=/home/shreyas/eclipse-workspace/files/read.py
+2=assignment_reg
+17=Student
+14=demo
+5=/home/shreyas/eclipse-workspace/files/pickleload.py
+6=pickleload
+4=write
+8=demo1
+18=Student.__init__
+10=pickletest
+-- END DICTIONARY
+-- START TREE 1
+6
+con|1|contains_digits!1^2#5*18@
+f|6|f!3^1#1*35@f!5^3#1*51@f!7^4#5*67@f!9^3#1*83@f!11^1#1*99@f!13^1#1*115@
+obj|1|obj!5^4#1*51@
+s|5|s!9^4#1*83@s!13^2#1*115@s!3^3#1*35@s!11^2#1*99@s!7^9#1*67@
+str|1|str!1^7#1*19@
+stu|1|Student!15^1#7*129@
+-- END TREE
+-- START TREE 2
+5
+__i|1|__init__!17&15^2#9*130@
+dis|1|display!17&15^7#9*130@
+id|1|id!18&15^3#9*131@
+nam|1|name!18&15^4#9*131@
+tes|1|testscore!18&15^5#9*131@
+-- END TREE

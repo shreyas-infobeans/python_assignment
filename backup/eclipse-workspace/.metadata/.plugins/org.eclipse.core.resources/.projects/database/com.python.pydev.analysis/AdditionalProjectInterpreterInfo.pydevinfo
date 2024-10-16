@@ -1,0 +1,44 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/database/com.python.pydev.analysis/v2_indexcache
+deletestudent|1725528138813856178|/home/shreyas/eclipse-workspace/database/deletestudent.py
+createstudent|1725525965998921572|/home/shreyas/eclipse-workspace/database/createstudent.py
+createemp|1725520085507632166|/home/shreyas/eclipse-workspace/database/createemp.py
+readstudent|1725526077450876795|/home/shreyas/eclipse-workspace/database/readstudent.py
+reademp|1725519792437696701|/home/shreyas/eclipse-workspace/database/reademp.py
+postgres2|1725856907008979362|/home/shreyas/eclipse-workspace/database/postgres2.py
+delete|1725521238981707087|/home/shreyas/eclipse-workspace/database/delete.py
+postgres|1725856477573515996|/home/shreyas/eclipse-workspace/database/postgres.py
+-- END DISKCACHE
+-- START DICTIONARY
+16
+16=deletestudent
+5=/home/shreyas/eclipse-workspace/database/postgres2.py
+11=/home/shreyas/eclipse-workspace/database/createemp.py
+9=/home/shreyas/eclipse-workspace/database/createstudent.py
+12=createemp
+6=postgres2
+14=delete
+15=/home/shreyas/eclipse-workspace/database/deletestudent.py
+7=/home/shreyas/eclipse-workspace/database/postgres.py
+10=createstudent
+1=/home/shreyas/eclipse-workspace/database/reademp.py
+4=readstudent
+2=reademp
+3=/home/shreyas/eclipse-workspace/database/readstudent.py
+13=/home/shreyas/eclipse-workspace/database/delete.py
+8=postgres
+-- END DICTIONARY
+-- START TREE 1
+7
+con|6|conn!1^3#1*19@conn!3^3#1*35@connection!5^3#1*51@connection!7^3#1*67@conn!9^3#1*83@conn!11^3#1*99@
+cur|6|cursor!9^7#1*83@cursor!11^7#1*99@cursor!7^6#1*67@cursor!5^6#1*51@cursor!1^7#1*19@cursor!3^7#1*35@
+del|2|delete!13^3#5*114@delete!15^3#5*130@
+emp|2|empid!15^45#1*131@empid!13^22#1*115@
+nam|1|name!15^46#1*131@
+row|3|rows!1^14#1*19@rows!5^8#1*51@rows!3^14#1*35@
+upd|1|update!15^25#5*130@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

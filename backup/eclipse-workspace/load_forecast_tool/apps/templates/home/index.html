@@ -1,0 +1,462 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+
+{% block stylesheets %}
+<style>
+  canvas{
+    border:1px solid rgb(31, 43, 77);   
+}
+.row1{
+    display: flex       
+}
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="row">
+
+      <div class="col-12">
+        <div class="card card-chart">
+          <div class="card-header ">
+            <div class="row">
+              <div class="col-sm-6 text-left">
+                <h5 class="card-category"></h5>
+                <h4 class="card-title">Load Test {{date_intra}}</h4>
+              </div>
+              <div class="col-sm-6">
+                <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
+                  <label class="btn btn-sm btn-primary btn-simple active" id="0">
+                    <input type="radio" name="options" checked>
+                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">MAPE : {{mape}}</span>
+                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">RMSE : {{rmse}}</span>
+                    <span class="d-block d-sm-none">
+                      <i class="tim-icons icon-single-02"></i>
+                    </span>
+                  </label>
+                  <label class="btn btn-sm btn-primary btn-simple" id="1">
+                    <input type="radio" class="d-none d-sm-none" name="options">
+                    {% for key, value in error_percent.items %} 
+                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">{{key}} : {{value}}</span>
+                    {% endfor %}
+                    <span class="d-block d-sm-none">
+                      <i class="tim-icons icon-gift-2"></i>
+                    </span>
+                  </label>
+                  <label class="btn btn-sm btn-primary btn-simple" id="2">
+                    <input type="radio" class="d-none" name="options">
+                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Max Error : {{max_err}}</span>
+                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Min Error : {{min_err}}</span>
+                    <span class="d-block d-sm-none">
+                      <i class="tim-icons icon-tap-02"></i>
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="width:100%;" class="row1">
+            <div class="my-4 col"><canvas id="chartBig1"></canvas></div>
+            <div class="my-4 col"><canvas id="chartBig2"></canvas></div>
+          </div>
+          <div style="width:100%;" class="row1">
+            <div class="my-4 col"><canvas id="chartBig3"></canvas></div>
+            <div class="my-4 col"><canvas id="chartBig4"></canvas></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card card-chart">
+          <div class="card-header">
+            <h5 class="card-category">Sample Pie Chart</h5>
+            <!-- <h3 class="card-title"><i class="tim-icons icon-delivery-fast text-info"></i></h3> -->
+          </div>
+          <div class="card-body">
+            <div >
+              <canvas id="CountryChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Chart JS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+          
+<!-- Chart JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ 
+<!-- Axios -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+  const ctx_comp = document.getElementById('chartBig1').getContext('2d');
+  const myChart_comp = new Chart(ctx_comp, {
+    type: 'line',
+    data: {
+      labels: [{% for item in l1 %}{{ item }},{% endfor %}],
+  datasets: [{
+    label: "Load vs Stroke",
+    data: [{% for item in l2 %} {{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(75, 192, 192, 1)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+        {
+    label: "Low Toll",
+    data: [{% for item in low_toll_1 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(227, 83, 53, 1)',
+        borderColor: 'rgba(227, 83, 53, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+        {
+    label: "High Limit",
+    data: [{% for item in high_lim_1 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(227, 83, 53, 1)',
+        borderColor: 'rgba(227, 83, 53, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+      ]
+    },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+          text: "Left to Right",
+            font: {
+          style: 'normal',
+            lineHeight: 1.2,
+              size: 18,
+              color: 'rgba(255,255,255)',family: "Lato"
+                  },
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: false,
+          display: true,
+            title: {
+          display: true,
+            text: 'Load',
+              font: {
+            style: 'bold',
+              lineHeight: 1.2,
+              size: 15,
+              color: 'rgba(255,255,255)',
+              family: "Lato"
+          },
+          padding: { top: 0, left: 0, right: 0, bottom: 5 }
+        }
+      },
+      x: {
+        beginAtZero: true,
+          display: true,
+            title: {
+          display: true,
+            text: 'Stroke',
+              font: {
+            style: 'normal',
+              lineHeight: 1.2,
+              size: 15,
+              family: "Lato"
+          },
+          padding: { top: 5, left: 0, right: 0, bottom: 0 }
+        }
+      }
+    }
+  }
+});
+
+const ctx_comp_2 = document.getElementById('chartBig2').getContext('2d');
+  const myChart_comp_2 = new Chart(ctx_comp_2, {
+    type: 'line',
+    data: {
+      labels: [{% for item in l1_2 %}{{ item }},{% endfor %}],
+  datasets: [{
+    label: "Load Vs Displacement",
+    data: [{% for item in l2_2 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(75, 192, 192, 1)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+        {
+    label: "Low Limit",
+    data: [{% for item in low_toll_1_2 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(227, 83, 53, 1)',
+        borderColor: 'rgba(227, 83, 53, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+        {
+    label: "High Limit",
+    data: [{% for item in high_lim_1_2 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(227, 83, 53, 1)',
+        borderColor: 'rgba(227, 83, 53, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+      ]
+    },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+          text: "Right to Left",
+            font: {
+          style: 'normal',
+            lineHeight: 1.2,
+              size: 18,
+              color: 'rgba(255,255,255)',family: "Lato"
+                  },
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: false,
+          display: true,
+            title: {
+          display: true,
+            text: 'Load',
+              font: {
+            style: 'bold',
+              lineHeight: 1.2,
+              size: 15,
+              color: 'rgba(255,255,255)',
+              family: "Lato"
+          },
+          padding: { top: 0, left: 0, right: 0, bottom: 5 }
+        }
+      },
+      x: {
+        beginAtZero: true,
+          display: true,
+            title: {
+          display: true,
+            text: 'Displacement',
+              font: {
+            style: 'normal',
+              lineHeight: 1.2,
+              size: 15,
+              family: "Lato"
+          },
+          padding: { top: 5, left: 0, right: 0, bottom: 0 }
+        }
+      }
+    }
+  }
+});
+
+const ctx_comp_3 = document.getElementById('chartBig3').getContext('2d');
+  const myChart_comp_3 = new Chart(ctx_comp_3, {
+    type: 'line',
+    data: {
+      labels: [{% for item in l1_3 %}{{ item }},{% endfor %}],
+  datasets: [{
+    label: "Load Vs Displacment",
+    data: [{% for item in l2_3 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(75, 192, 192, 1)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+        {
+    label: "Lower Limit",
+    data: [{% for item in low_toll_1_3 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(227, 83, 53, 1)',
+        borderColor: 'rgba(227, 83, 53, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+        {
+    label: "Upper Limit",
+    data: [{% for item in high_lim_1_3 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(227, 83, 53, 1)',
+        borderColor: 'rgba(227, 83, 53, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+      ]
+    },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+          text: "Up to Down",
+            font: {
+          style: 'normal',
+            lineHeight: 1.2,
+              size: 18,
+              color: 'rgba(255,255,255)',family: "Lato"
+                  },
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: false,
+          display: true,
+            title: {
+          display: true,
+            text: 'Load',
+              font: {
+            style: 'bold',
+              lineHeight: 1.2,
+              size: 15,
+              color: 'rgba(255,255,255)',
+              family: "Lato"
+          },
+          padding: { top: 0, left: 0, right: 0, bottom: 5 }
+        }
+      },
+      x: {
+        beginAtZero: true,
+          display: true,
+            title: {
+          display: true,
+            text: 'Displacement',
+              font: {
+            style: 'normal',
+              lineHeight: 1.2,
+              size: 15,
+              family: "Lato"
+          },
+          padding: { top: 5, left: 0, right: 0, bottom: 0 }
+        }
+      }
+    }
+  }
+});
+
+const ctx_comp_4 = document.getElementById('chartBig4').getContext('2d');
+  const myChart_comp_4 = new Chart(ctx_comp_4, {
+    type: 'line',
+    data: {
+      labels: [{% for item in l1_4 %}{{ item }},{% endfor %}],
+  datasets: [{
+    label: "Load Vs Displacment",
+    data: [{% for item in l2_4 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(75, 192, 192, 1)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+        {
+    label: "Lower Limit",
+    data: [{% for item in low_toll_1_4 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(227, 83, 53, 1)',
+        borderColor: 'rgba(227, 83, 53, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+        {
+    label: "Upper Limit",
+    data: [{% for item in high_lim_1_4 %}{{ item }}, {% endfor %}],
+        backgroundColor: 'rgba(227, 83, 53, 1)',
+        borderColor: 'rgba(227, 83, 53, 1)',
+        borderWidth: 2,
+        pointRadius: 0.1,
+        },
+      ]
+    },
+  options: {
+    plugins: {
+      title: {
+        display: true,
+          text: "Down to Up",
+            font: {
+          style: 'normal',
+            lineHeight: 1.2,
+              size: 18,
+              color: 'rgba(255,255,255)',family: "Lato"
+                  },
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: false,
+          display: true,
+            title: {
+          display: true,
+            text: 'Load',
+              font: {
+            style: 'bold',
+              lineHeight: 1.2,
+              size: 15,
+              color: 'rgba(255,255,255)',
+              family: "Lato"
+          },
+          padding: { top: 0, left: 0, right: 0, bottom: 5 }
+        }
+      },
+      x: {
+        beginAtZero: true,
+          display: true,
+            title: {
+          display: true,
+            text: 'Displacement',
+              font: {
+            style: 'normal',
+              lineHeight: 1.2,
+              size: 15,
+              family: "Lato"
+          },
+          padding: { top: 5, left: 0, right: 0, bottom: 0 }
+        }
+      }
+    }
+  }
+});
+
+const ctx_pie = document.getElementById('CountryChart').getContext('2d');
+  const myChart_avg_lvl1 = new Chart(ctx_pie, {
+    type: 'pie',
+    data: {
+      labels: ["THERMAL", 'HYDRO', 'RE','SHORT-TERM','EXCHANGE'],
+  datasets: [{
+    label: "Generation Mix",
+    data: [40,10,5,15,30],
+    backgroundColor: [
+                      'rgba(255, 99, 132, 0.2)', 
+                      'rgba(54, 162, 235, 0.2)',
+                      'rgba(255, 206, 86, 0.2)',
+                      'rgba(75, 192, 192, 0.2)',
+                      'rgba(153, 102, 255, 0.2)'
+                  ],
+    borderColor: [
+                      'rgba(255, 99, 132, 1)',
+                      'rgba(54, 162, 235, 1)',
+                      'rgba(255, 206, 86, 1)',
+                      'rgba(75, 192, 192, 1)',
+                      'rgba(153, 102, 255, 1)'
+                  ],
+    hoverOffset: 4
+        }]
+    },
+  
+});
+</script>
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% comment %} {% block javascripts %}
+
+  <!-- <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      demo.initDashboardPageCharts();
+
+    });
+  </script> -->
+
+{% endblock javascripts %} {% endcomment %}
+

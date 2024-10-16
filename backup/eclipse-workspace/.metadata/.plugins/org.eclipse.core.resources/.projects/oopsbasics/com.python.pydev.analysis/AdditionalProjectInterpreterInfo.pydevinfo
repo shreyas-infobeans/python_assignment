@@ -1,0 +1,72 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/oopsbasics/com.python.pydev.analysis/v2_indexcache
+product|1724416022831821326|/home/shreyas/eclipse-workspace/oopsbasics/product.py
+student|1724421718148448605|/home/shreyas/eclipse-workspace/oopsbasics/student.py
+assignment|1724486702064791028|/home/shreyas/eclipse-workspace/oopsbasics/assignment.py
+patient|1724485240578638987|/home/shreyas/eclipse-workspace/oopsbasics/patient.py
+programmer|1724415641235640917|/home/shreyas/eclipse-workspace/oopsbasics/programmer.py
+-- END DISKCACHE
+-- START DICTIONARY
+27
+9=/home/shreyas/eclipse-workspace/oopsbasics/student.py
+10=student
+12=Clinical
+27=Programmer.setTech
+15=Product
+21=Product.__init__
+3=/home/shreyas/eclipse-workspace/oopsbasics/patient.py
+14=Patient.setId
+4=patient
+26=Programmer.setSalary
+16=Course
+7=/home/shreyas/eclipse-workspace/oopsbasics/programmer.py
+25=Student.__init__
+17=Patient.setName
+24=Course.__init__
+2=product
+6=assignment
+8=programmer
+11=Patient
+5=/home/shreyas/eclipse-workspace/oopsbasics/assignment.py
+13=Student
+23=Programmer.setName
+22=Programmer
+19=Patient.__init__
+1=/home/shreyas/eclipse-workspace/oopsbasics/product.py
+20=Clinical.__init__
+18=Patient.setSsn
+-- END DICTIONARY
+-- START TREE 1
+9
+c1|2|c1!1^27#1*19@c1!3^15#1*35@
+c2|1|c2!3^17#1*35@
+cli|1|Clinical!3^9#7*33@
+cou|1|Course!1^16#7*17@
+p1|4|p1!3^14#1*35@p1!5^21#1*51@p1!7^19#1*67@p1!1^10#1*19@
+pat|2|Patient!5^1#7*49@Patient!3^1#7*33@
+pro|2|Product!1^1#7*17@Programmer!7^1#7*65@
+s1|1|s1!9^8#1*83@
+stu|1|Student!9^1#7*81@
+-- END TREE
+-- START TREE 2
+18
+__i|6|__init__!11&3^2#9*34@__init__!12&3^10#9*34@__init__!13&9^3#9*82@__id!14&5^4#9*51@__init__!15&1^2#9*18@__init__!16&1^18#9*18@
+__n|1|__name!17&5^10#9*51@
+__s|1|__ssn!18&5^16#9*51@
+add|1|addClinicalData!11&3^6#9*34@
+age|1|age!19&3^4#9*35@
+ave|1|average!16&1^22#9*18@
+cli|1|clinical!19&3^5#9*35@
+com|2|componentName!20&3^11#9*35@componentValue!20&3^12#9*35@
+des|1|description!21&1^4#9*19@
+dis|2|display!15&1^7#9*18@display!13&9^5#9*82@
+get|6|getSsn!11&5^18#9*50@getName!22&7^4#9*66@getId!11&5^6#9*50@getSalary!22&7^10#9*66@getName!11&5^12#9*50@getTech!22&7^16#9*66@
+maj|1|major!13&9^2#5*83@
+nam|5|name!23&7^3#9*67@name!19&3^3#9*35@name!21&1^3#9*19@name!24&1^19#9*19@name!25&9^4#13*83@
+pri|1|price!21&1^5#9*19@
+rat|1|ratings!24&1^20#9*19@
+sal|1|salary!26&7^8#9*67@
+set|6|setId!11&5^3#9*50@setTech!22&7^13#9*66@setName!11&5^9#9*50@setName!22&7^2#9*66@setSsn!11&5^15#9*50@setSalary!22&7^7#9*66@
+tec|1|tech!27&7^14#9*67@
+-- END TREE

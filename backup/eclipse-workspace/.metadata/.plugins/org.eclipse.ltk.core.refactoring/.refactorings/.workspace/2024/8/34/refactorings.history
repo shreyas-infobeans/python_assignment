@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;functions/keyword.py&apos;" deleteContents="false" description="Delete resource &apos;functions/keyword.py&apos;" element1="/functions/keyword.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1724396692365"/>&#x0A;<refactoring comment="Delete resource &apos;functions/module.py&apos;" deleteContents="false" description="Delete resource &apos;functions/module.py&apos;" element1="/functions/module.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1724396747918"/>
+</session>

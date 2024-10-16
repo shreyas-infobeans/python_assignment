@@ -1,0 +1,3 @@
+[2024-08-07 14:32:10] ERROR: User login failed for user 'john_doe'
+[2024-08-07 14:33:12] INFO: User 'jane_doe' successfully logged in
+[2024-08-07 14:34:15] WARNING: Disk space running low

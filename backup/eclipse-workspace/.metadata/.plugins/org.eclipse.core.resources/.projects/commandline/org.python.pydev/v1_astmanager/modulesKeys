@@ -1,0 +1,4 @@
+MODULES_MANAGER_V3
+atm|/home/shreyas/eclipse-workspace/commandline/atm.py
+cmd|/home/shreyas/eclipse-workspace/commandline/cmd.py
+product|/home/shreyas/eclipse-workspace/commandline/product.py

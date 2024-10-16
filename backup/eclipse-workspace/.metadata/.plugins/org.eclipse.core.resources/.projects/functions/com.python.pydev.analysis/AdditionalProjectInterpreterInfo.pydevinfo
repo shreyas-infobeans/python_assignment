@@ -1,0 +1,75 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/functions/com.python.pydev.analysis/v2_indexcache
+reduce|1724323602916675689|/home/shreyas/eclipse-workspace/functions/reduce.py
+average|1724247502099823284|/home/shreyas/eclipse-workspace/functions/average.py
+calculator|1724259637204401891|/home/shreyas/eclipse-workspace/functions/calculator.py
+funasparameter|1724253306680648929|/home/shreyas/eclipse-workspace/functions/funasparameter.py
+numberguess|1724399631500917165|/home/shreyas/eclipse-workspace/functions/numberguess.py
+greeting|1724253145984319347|/home/shreyas/eclipse-workspace/functions/greeting.py
+testmod|1724397320728313118|/home/shreyas/eclipse-workspace/functions/testmod.py
+mymath|1724396720151110682|/home/shreyas/eclipse-workspace/functions/mymath.py
+randomdemo|1724398533140433106|/home/shreyas/eclipse-workspace/functions/randomdemo.py
+filter|1724322082673105270|/home/shreyas/eclipse-workspace/functions/filter.py
+mymath1|1724396784187877757|/home/shreyas/eclipse-workspace/functions/mymath1.py
+decor|1724324351927117145|/home/shreyas/eclipse-workspace/functions/decor.py
+cubelambda|1724304512468825410|/home/shreyas/eclipse-workspace/functions/cubelambda.py
+mathfun|1724397590513763652|/home/shreyas/eclipse-workspace/functions/mathfun.py
+customgenerator|1724346887339796039|/home/shreyas/eclipse-workspace/functions/customgenerator.py
+calc|1724252835303739641|/home/shreyas/eclipse-workspace/functions/calc.py
+map|1724322625053523189|/home/shreyas/eclipse-workspace/functions/map.py
+-- END DISKCACHE
+-- START DICTIONARY
+30
+6=average
+30=numberguess
+18=greeting
+29=/home/shreyas/eclipse-workspace/functions/numberguess.py
+28=randomdemo
+15=/home/shreyas/eclipse-workspace/functions/decor.py
+17=/home/shreyas/eclipse-workspace/functions/greeting.py
+2=mymath1
+7=/home/shreyas/eclipse-workspace/functions/calculator.py
+16=decor
+3=/home/shreyas/eclipse-workspace/functions/mymath.py
+19=/home/shreyas/eclipse-workspace/functions/funasparameter.py
+9=/home/shreyas/eclipse-workspace/functions/calc.py
+14=customgenerator
+22=map
+26=reduce
+8=calculator
+20=funasparameter
+23=/home/shreyas/eclipse-workspace/functions/filter.py
+4=mymath
+1=/home/shreyas/eclipse-workspace/functions/mymath1.py
+5=/home/shreyas/eclipse-workspace/functions/average.py
+24=filter
+11=/home/shreyas/eclipse-workspace/functions/cubelambda.py
+13=/home/shreyas/eclipse-workspace/functions/customgenerator.py
+12=cubelambda
+27=/home/shreyas/eclipse-workspace/functions/randomdemo.py
+10=calc
+25=/home/shreyas/eclipse-workspace/functions/reduce.py
+21=/home/shreyas/eclipse-workspace/functions/map.py
+-- END DICTIONARY
+-- START TREE 1
+15
+add|2|add!1^6#5*18@add!3^6#5*34@
+ave|1|average!5^1#5*50@
+cal|2|calc!7^1#5*66@calc!9^1#5*82@
+cub|1|cube!11^1#5*98@
+cus|1|custom!13^1#5*114@
+dec|1|decor!15^1#5*130@
+dif|1|diff!3^9#5*34@
+dis|2|display!17^1#5*146@display!19^1#5*162@
+f|1|f!11^14#1*99@
+fn|3|fn!21^3#1*179@fn!23^3#1*195@fn!25^4#1*211@
+lst|4|lst!27^15#1*227@lst!23^1#1*195@lst!25^2#1*211@lst!21^1#1*179@
+nam|1|name!19^4#5*162@
+num|2|num!15^7#5*130@number_guessing_game!29^3#5*242@
+ope|1|operation!7^13#1*67@
+res|4|result!13^6#1*115@res!9^5#1*83@resultfun!15^10#1*131@result!7^15#1*67@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

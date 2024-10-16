@@ -1,0 +1,8 @@
+MODULES_MANAGER_V3
+emailclient|/home/shreyas/eclipse-workspace/networking/emailclient.py
+fileclient|/home/shreyas/eclipse-workspace/networking/fileclient.py
+fileserver|/home/shreyas/eclipse-workspace/networking/fileserver.py
+html|/home/shreyas/eclipse-workspace/networking/html.py
+image|/home/shreyas/eclipse-workspace/networking/image.py
+tcpip|/home/shreyas/eclipse-workspace/networking/tcpip.py
+tcpipclient|/home/shreyas/eclipse-workspace/networking/tcpipclient.py

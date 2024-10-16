@@ -1,0 +1,18 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/matplotlib/com.python.pydev.analysis/v2_indexcache
+demo_testfile|1725994193675350755|/home/shreyas/eclipse-workspace/matplotlib/demo_testfile.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=demo_testfile
+1=/home/shreyas/eclipse-workspace/matplotlib/demo_testfile.py
+-- END DICTIONARY
+-- START TREE 1
+2
+xpo|1|xpoints!1^4#1*19@
+ypo|1|ypoints!1^5#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

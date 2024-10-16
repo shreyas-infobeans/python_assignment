@@ -1,0 +1,53 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/polymprphism/com.python.pydev.analysis/v2_indexcache
+flightengine|1724570029236348027|/home/shreyas/eclipse-workspace/polymprphism/flightengine.py
+duck|1724549814234847728|/home/shreyas/eclipse-workspace/polymprphism/duck.py
+laptop|1724629932611949002|/home/shreyas/eclipse-workspace/polymprphism/laptop.py
+-- END DISKCACHE
+-- START DICTIONARY
+16
+16=Human
+1=/home/shreyas/eclipse-workspace/polymprphism/laptop.py
+10=Flight.__init__
+12=Dell
+4=flightengine
+8=TouchScreenLaptop
+3=/home/shreyas/eclipse-workspace/polymprphism/flightengine.py
+5=/home/shreyas/eclipse-workspace/polymprphism/duck.py
+7=Flight
+11=HP
+14=BoingEngine
+9=HPNotebook
+2=laptop
+13=AirBusEngine
+6=duck
+15=Duck
+-- END DICTIONARY
+-- START TREE 1
+15
+HP|1|HP!1^12#7*17@
+ae|1|ae!3^16#1*35@
+air|1|AirBusEngine!3^8#7*33@
+boi|1|BoingEngine!3^12#7*33@
+d|1|d!5^12#1*51@
+del|1|Dell!1^16#7*17@
+duc|1|Duck!5^1#7*49@
+f|1|f!3^18#1*35@
+fli|1|Flight!3^1#7*33@
+h|1|h!5^13#1*51@
+hp|1|hp!1^24#1*19@
+hpn|1|HPNotebook!1^20#7*17@
+hum|1|Human!5^5#7*49@
+sta|1|start!5^9#5*50@
+tou|1|TouchScreenLaptop!1^2#7*17@
+-- END TREE
+-- START TREE 2
+6
+__i|1|__init__!7&3^2#9*34@
+cli|2|click!8&1^9#9*18@click!9&1^21#9*18@
+eng|1|engine!10&3^3#9*35@
+scr|3|scroll!8&1^5#9*18@scroll!11&1^13#9*18@scroll!12&1^17#9*18@
+sta|3|startEngine!7&3^5#9*34@start!13&3^9#9*34@start!14&3^13#9*34@
+tal|2|talk!15&5^2#9*50@talk!16&5^6#9*50@
+-- END TREE

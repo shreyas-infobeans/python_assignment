@@ -1,0 +1,9 @@
+MODULES_MANAGER_V3
+createemp|/home/shreyas/eclipse-workspace/database/createemp.py
+createstudent|/home/shreyas/eclipse-workspace/database/createstudent.py
+delete|/home/shreyas/eclipse-workspace/database/delete.py
+deletestudent|/home/shreyas/eclipse-workspace/database/deletestudent.py
+postgres|/home/shreyas/eclipse-workspace/database/postgres.py
+postgres2|/home/shreyas/eclipse-workspace/database/postgres2.py
+reademp|/home/shreyas/eclipse-workspace/database/reademp.py
+readstudent|/home/shreyas/eclipse-workspace/database/readstudent.py

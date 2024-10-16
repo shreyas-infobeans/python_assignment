@@ -1,0 +1,23 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/shreyas/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/listcomprehension/com.python.pydev.analysis/v2_indexcache
+evennumbers|1724403769944535601|/home/shreyas/eclipse-workspace/listcomprehension/evennumbers.py
+cube|1724403553296512692|/home/shreyas/eclipse-workspace/listcomprehension/cube.py
+productlist|1724405585409207138|/home/shreyas/eclipse-workspace/listcomprehension/productlist.py
+-- END DISKCACHE
+-- START DICTIONARY
+6
+5=/home/shreyas/eclipse-workspace/listcomprehension/evennumbers.py
+1=/home/shreyas/eclipse-workspace/listcomprehension/productlist.py
+6=evennumbers
+4=cube
+3=/home/shreyas/eclipse-workspace/listcomprehension/cube.py
+2=productlist
+-- END DICTIONARY
+-- START TREE 1
+1
+lst|5|lst2!1^2#1*19@lst1!1^1#1*19@lst3!1^3#1*19@lst!3^8#1*35@lst!5^1#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

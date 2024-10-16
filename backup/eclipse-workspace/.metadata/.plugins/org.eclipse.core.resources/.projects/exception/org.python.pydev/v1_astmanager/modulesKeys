@@ -1,0 +1,9 @@
+MODULES_MANAGER_V3
+assert|/home/shreyas/eclipse-workspace/exception/assert.py
+assignment|/home/shreyas/eclipse-workspace/exception/assignment.py
+assignment1|/home/shreyas/eclipse-workspace/exception/assignment1.py
+customexception|/home/shreyas/eclipse-workspace/exception/customexception.py
+customextension1|/home/shreyas/eclipse-workspace/exception/customextension1.py
+demo|/home/shreyas/eclipse-workspace/exception/demo.py
+demo1|/home/shreyas/eclipse-workspace/exception/demo1.py
+loggingexample|/home/shreyas/eclipse-workspace/exception/loggingexample.py

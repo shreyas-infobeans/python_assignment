@@ -1,0 +1,18 @@
+
+<html>
+    <h1>Heading</h1>
+    <p>This is a paragraph {{Year}}</p>
+    <table>
+        <tr>
+          <th>Employee_Name</th>
+          <th>Employee_id</th>
+        </tr>
+        {% for i in emp2 %}
+        <tr>
+          <td>{{i.name}}</td>
+          <td>{{i.emp_no}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</html>
